@@ -1,0 +1,53 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        FontSize="26"
+        Title="MainWindow" Height="750" Width="550">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Name="Total" Content="" Grid.Row="0" Grid.Column="0" FontSize="40" Grid.ColumnSpan="5" VerticalAlignment="Center" HorizontalAlignment="Right"></Label>
+        <Button Name="Clear" Content="Clear" Height="80" Width="100" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Clear_Click"></Button>
+        <Button Name="posneg" Content="+/-" Height="80" Width="100" Grid.Row="1" Grid.Column="1"  VerticalAlignment="Center" HorizontalAlignment="Center" Click="Posneg_Click"></Button>
+        <Button Name="Percentage" Content="%" Height="80" Width="100" Grid.Row="1" Grid.Column="2"  VerticalAlignment="Center" HorizontalAlignment="Center" Click="Percentage_Click"></Button>
+        <Button Name="Division" Content="/" Height="80" Width="100" Grid.Row="1" Grid.Column="3"  VerticalAlignment="Center" HorizontalAlignment="Center" Click="Division_Click"></Button>
+        <Button Name="Num7" Content="7" Height="80" Width="100" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Num7_Click" ></Button>
+        <Button Name="Num8" Content="8" Height="80" Width="100" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Num8_Click"></Button>
+        <Button Name="Num9" Content="9" Height="80" Width="100" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Num9_Click"></Button>
+        <Button Name="Multiplication" Content="*" Height="80" Width="100" Grid.Row="2" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Multiplication_Click"></Button>
+        <Button Name="Num4" Content="4" Height="80" Width="100" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Num4_Click"></Button>
+        <Button Name="Num5" Content="5" Height="80" Width="100" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Num5_Click"></Button>
+        <Button Name="Num6" Content="6" Height="80" Width="100" Grid.Row="3" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Num6_Click"></Button>
+        <Button Name="Addition" Content="+" Height="80" Width="100" Grid.Row="3" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Addition_Click"></Button>
+        <Button Name="Num1" Content="1" Height="80" Width="100" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Num1_Click"></Button>
+        <Button Name="Num2" Content="2" Height="80" Width="100" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Num2_Click"></Button>
+        <Button Name="Num3" Content="3" Height ="80" Width="100" Grid.Row="4" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Num3_Click"></Button>
+        <Button Name="Subtraction" Content="-" Height="80" Width="100" Grid.Row="4" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Subtraction_Click"></Button>
+        <Button Name="Num0" Content="0" Height="80" Width="270" Grid.Row="5" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.ColumnSpan="2" Click="Num0_Click" ></Button>
+        <Button Name="Decimal" Content="." Height="80" Width="100" Grid.Row="5" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Decimal_Click"></Button>
+        <Button Name="Equal" Content="=" Height="80" Width="100" Grid.Row="5" Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Equal_Click"></Button>
+        <Button Name="Exponent" Content="^" Height="80" Width="100" Grid.Row="1" Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Exponent_Click" ></Button>
+        <Button Name="Mod" Content="Mod" Height="80" Width="100" Grid.Row="2" Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Mod_Click" ></Button>
+        <Button Name="Sqrrt" Content="Sqrt" Height="80" Width="100" Grid.Row="4" Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Sqrrt_Click" ></Button>
+        <Button Name="Square" Content="X^2" Height="80" Width="100" Grid.Row="3" Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Square_Click" ></Button>
+        <Button Name="Pi" Content="Pi" Height="80" Width="100" Grid.Row="5" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Pi_Click" ></Button>
+
+    </Grid>
+</Window>
